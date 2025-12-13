@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import Buttons from './Button';
+import ButtonClick from './Button2';
 import { FavoriteFood } from './FavoriteFood';
 import { Greeting } from './Greeting';
 import './index.css';
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <Videogames />
 
     <Buttons />
+    <ButtonClick />
   </StrictMode>
 );
