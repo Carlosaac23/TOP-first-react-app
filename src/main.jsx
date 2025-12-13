@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { FavoriteFood } from './FavoriteFood';
 import { Greeting } from './Greeting';
 import { Animals } from './Rendering';
+import { CarBrands } from './Rendering2';
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
@@ -10,5 +11,6 @@ createRoot(document.getElementById('root')).render(
     <Greeting />
     <FavoriteFood />
     <Animals />
+    <CarBrands />
   </StrictMode>
 );
