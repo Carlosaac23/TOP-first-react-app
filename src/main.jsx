@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import Button from './Button';
 import { FavoriteFood } from './FavoriteFood';
 import { Greeting } from './Greeting';
 import './index.css';
@@ -16,5 +17,9 @@ createRoot(document.getElementById('root')).render(
     <CarBrands />
     <TodoList />
     <Videogames />
+
+    <Button />
+    <Button />
+    <Button />
   </StrictMode>
 );
