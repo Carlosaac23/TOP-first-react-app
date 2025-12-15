@@ -6,6 +6,7 @@ import { FavoriteFood } from './FavoriteFood';
 import { Greeting } from './Greeting';
 import './index.css';
 import { TodoList } from './Keys';
+import Person from './Person';
 import { Animals } from './Rendering';
 import { CarBrands } from './Rendering2';
 import { Videogames } from './Videogames';
@@ -21,5 +22,7 @@ createRoot(document.getElementById('root')).render(
 
     <Buttons />
     <ButtonClick />
+
+    <Person />
   </StrictMode>
 );
